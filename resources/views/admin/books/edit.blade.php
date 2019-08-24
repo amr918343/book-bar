@@ -24,6 +24,15 @@
                 <input type="text" name="name" class="form-control" id="name" aria-describedby="nameHelp" value="{{$book->name}}">
             </div>
 
+            <div class="form-group ">
+                <textarea class="form-control" name="description" id="book-description" cols="30" rows="10">{{$book->description}}</textarea>
+            </div>
+
+            <div class="form-group ">
+                <input type="text" name="author_id" class="form-control" id="book-author" aria-describedby="nameHelp" value="{{($book->author) ? $book->author->name : ''}}" placeholder="Eneter Author Name">
+            </div>
+
+
             <div class="form-group mb-5">
 
                 <select name="category_id" class="form-control" id="category">

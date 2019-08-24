@@ -11,15 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('main_page');
-})->name('main');
-
+Route::get('/', 'HomeController@main')->name('main');
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Auth::routes();
 
 
 
-Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
+// Users routes
+Route::get('/categories', 'users\UserCategoriesController@index');
+Route::get('/authors', 'users\UserAuthorsController@index')->name('authors');
+Route::get('/author/{id}/books', 'users\UserAuthorsController@books')->name('authorbooks');
 
 Route::group(['middleware' => 'preventBack'], function() {
 
@@ -27,9 +28,14 @@ Route::group(['middleware' => 'preventBack'], function() {
 
         Route::get('/home', 'HomeController@index')->name('home');
 
+        Route::delete('/books/delete', 'AdminBooksController@deleteSelected')->name('deleteSelected-book');
+        Route::delete('/users/delete', 'AdminUsersController@deleteSelected')->name('deleteSelected-user');
+        Route::delete('/categories/delete', 'AdminCategoriesController@deleteSelected')->name('deleteSelected-category');
+
         Route::resource('users', 'AdminUsersController');
         Route::resource('categories', 'AdminCategoriesController');
         Route::resource('books', 'AdminBooksController');
+
     });
 
 });

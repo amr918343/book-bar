@@ -31,4 +31,10 @@ class HomeController extends Controller
         $books = Book::all();
         return view('admin.dashboard', compact(['users', 'categories', 'books']));
     }
+
+    public function main() {
+        $books = Book::paginate(12);
+        $categories = Category::all();
+        return view('main_page', compact('books', 'categories'));
+    }
 }

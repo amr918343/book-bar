@@ -6,6 +6,7 @@ use App\Models\book\Book;
 use App\Models\book\BookPhoto;
 use App\Models\Category;
 use App\Models\book\Pdf;
+use App\Models\user\Author;
 use Illuminate\Http\Request;
 
 class AdminBooksController extends Controller
@@ -18,7 +19,7 @@ class AdminBooksController extends Controller
     public function index()
     {
         //
-        $books = Book::all();
+        $books = Book::paginate(5);
 
         return view('admin.books.index', compact('books'));
     }
@@ -47,6 +48,8 @@ class AdminBooksController extends Controller
         //
         $this->validate($request, [
             'name' => 'required',
+            'author_id' => 'required|string',
+            'description' => 'required|string|min:10',
             'category_id' => 'required',
             'photo_id' => 'mimes:jpeg,jpg,png,gif',
             "pdf_id" => "required_with:photo_id|mimes:pdf"
@@ -76,7 +79,12 @@ class AdminBooksController extends Controller
             $input['pdf_id'] = $pdf->id;
 
         }
-
+        if ($author = Author::where('name', $input['author_id'])->first()) {
+        }
+        else {
+            $author = Author::create(['name' => $input['author_id']]);
+        }
+        $input['author_id'] = $author->id;
         Book::create($input);
 
         return redirect('auth/books');
@@ -125,7 +133,9 @@ class AdminBooksController extends Controller
             'name' => 'required',
             'category_id' => 'required',
             'photo_id' => 'mimes:jpeg,jpg,png,gif',
-            "pdf_id" => "mimes:pdf"
+            "pdf_id" => "mimes:pdf",
+            'author_id' => 'required|string',
+            'description' => 'required|string|min:10',
         ]);
 
         $input = $request->except(['_token', '_method']);
@@ -152,6 +162,13 @@ class AdminBooksController extends Controller
             $input['pdf_id'] = $pdf->id;
 
         }
+        if ($author = Author::where('name', $input['author_id'])->first()) {
+        }
+        else {
+            $author = Author::create(['name' => $input['author_id']]);
+        }
+        $input['author_id'] = $author->id;
+
         Book::whereId($id)->update($input);
 
         return redirect('auth/books');
@@ -172,5 +189,17 @@ class AdminBooksController extends Controller
         unlink($book->pdf->file);
         $book->delete();
         return redirect('auth/books');
+    }
+
+
+    public function deleteSelected(Request $request) {
+
+        $books = Book::findOrFail($request->checkBoxArray);
+        foreach ($books as $book) {
+            unlink($book->photo->file);
+            unlink($book->pdf->file);
+            $book->delete();
+        }
+        return redirect()->back();
     }
 }

@@ -30,9 +30,9 @@ return [
     |
     */
 
-    'logo' => '<img  style="margin-top: 2px;margin-left: -50px;" width="45px" src="/images/icons/logo.png">',
+    'logo' => '<img  style="margin-top: 2px;margin-left: -50px;" width="45px" src="/images/icons/bookbaricon.png">',
 
-    'logo_mini' => '<img style="margin-left: -10px;margin-top: 10px;" width="35px" src="/images/icons/logo.png">',
+    'logo_mini' => '<img style="margin-left: -10px;margin-top: 10px;" width="35px" src="/images/icons/bookbaricon.png">',
 
     /*
     |--------------------------------------------------------------------------
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'skin' => 'red',
+    'skin' => 'yellow-light',
 
     /*
     |--------------------------------------------------------------------------
@@ -71,7 +71,7 @@ return [
     |
     */
 
-    'collapse_sidebar' => false,
+    'collapse_sidebar' => true,
 
     /*
     |--------------------------------------------------------------------------

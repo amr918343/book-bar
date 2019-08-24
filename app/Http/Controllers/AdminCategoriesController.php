@@ -104,4 +104,13 @@ class AdminCategoriesController extends Controller
         $category = Category::findOrFail($id)->delete();
         return redirect('auth/categories');
     }
+
+    public function deleteSelected(Request $request) {
+
+        $categories = Category::findOrFail($request->checkBoxArray);
+        foreach ($categories as $category) {
+            $category->delete();
+        }
+        return redirect()->back();
+    }
 }

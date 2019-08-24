@@ -25,6 +25,7 @@
         "yarn-upgrade-all": "^0.5.0"
     },
     "dependencies": {
-        "npm-check-updates": "^3.1.20"
+        "npm-check-updates": "^3.1.20",
+        "particles.js": "^2.0.0"
     }
 }

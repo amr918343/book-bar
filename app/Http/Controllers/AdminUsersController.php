@@ -18,7 +18,7 @@ class AdminUsersController extends Controller
     public function index()
     {
         //
-        $users = User::paginate(10);
+        $users = User::paginate(5);
 
         return view('admin.users.index', compact('users'));
     }
@@ -161,5 +161,16 @@ class AdminUsersController extends Controller
         unlink($user->photo->file);
         $user->delete();
         return redirect('auth/users');
+    }
+
+    public function deleteSelected(Request $request) {
+
+        $users = User::findOrFail($request->checkBoxArray);
+        foreach ($users as $user) {
+            unlink($user->photo->file);
+            $user->delete();
+
+        }
+        return redirect()->back();
     }
 }

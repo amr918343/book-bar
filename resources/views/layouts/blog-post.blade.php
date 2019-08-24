@@ -58,6 +58,7 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
+
                 <ul class="nav navbar-nav navbar-right">
 
                     @if (Route::has('login'))
@@ -88,6 +89,8 @@
 
                 </ul>
             <!-- /.navbar-collapse -->
+            </div>
+
         </div>
         <!-- /.container -->
     </nav>

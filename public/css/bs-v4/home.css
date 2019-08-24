@@ -1,0 +1,162 @@
+a {
+    color: #fff;
+}
+.logo-bookbar {
+    width: 25px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.logo-text {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.nav-search {
+    background: #1b1e21 !important;
+}
+
+.book-bar-btn-b {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 2px!important;
+    background: #1b1e21!important;
+    border-color: #1d2124!important;
+    color: #fff;
+    font-weight: 700;
+}
+
+.home_search_for {
+    border: 2px solid #fff!important;
+    padding-left: 55px;
+    font-size: 1.15 em;
+}
+
+.home-search-for-i {
+    color: #1d2124;
+    top: 22px;
+    left: 22px;
+    position: absolute;
+    font-size: 25px!important;
+}
+
+.search-home {
+    background: #163758;
+    border-radius: 0;
+}
+
+.upload-link-in-search {
+    position: relative;
+    color: #00a157;
+    top: 15px;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.upload-link-in-search:hover {
+    text-decoration: none;
+    color: #00a157;
+    opacity: 0.8;
+
+}
+
+/*Home categories bread crumbs*/
+.breadcrumb-item {
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.breadcrumb-item:hover {
+    background: #163758;
+    opacity: 0.5;
+    cursor: pointer;
+
+
+}
+.breadcrumb-item:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.breadcrumb-item:first-child {
+    background: #163758;
+    color: #fff;
+
+}
+.breadcrumb-item a{
+    color: #1a2226;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '|';
+}
+/*Home Cards*/
+
+.book-restult {
+    padding: 15px;
+    padding-top: 30px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 2px solid #dcdcdc!important;
+    position: relative;
+}
+
+.book-restult .book_rating_avg {
+    color: #ffb300;
+    position: absolute;
+    top: 7px;
+    right: calc(50% - 42px);
+}
+
+.book-restult .book_rating_count {
+    color: #545454;
+}
+
+.img-a {
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+}
+
+.book_photo_container_results {
+    width: 128px;
+    height: 180px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.book-restult img {
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+}
+
+.book-restult h3 {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    height: 47px;
+    overflow: hidden;
+}
+
+.book-restult p {
+    color: #1bbc9c;
+    line-height: 25px;
+    height: 22px;
+    overflow: hidden;
+    margin-bottom: 0;
+    font-size: 13px;
+}

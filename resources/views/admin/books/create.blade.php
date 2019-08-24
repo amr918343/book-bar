@@ -18,6 +18,15 @@
                 <input type="text" name="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter name">
             </div>
 
+
+            <div class="form-group ">
+                <textarea class="form-control" name="description" id="book-description" cols="30" rows="10" placeholder="Type Description Here"></textarea>
+            </div>
+
+            <div class="form-group ">
+                <input type="text" name="author_id" class="form-control" id="book-author" aria-describedby="nameHelp" placeholder="Enter author name">
+            </div>
+
             <div class="form-group mb-5">
 
                 <select name="category_id" class="form-control" id="category">

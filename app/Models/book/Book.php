@@ -8,7 +8,7 @@ class Book extends Model
 {
     //
 
-    protected $fillable = ['name', 'category_id', 'photo_id', 'pdf_id'];
+    protected $fillable = ['name', 'category_id', 'photo_id', 'pdf_id', 'description', 'author_id'];
 
     public function category() {
         return $this->belongsTo('App\Models\Category', 'category_id');
@@ -20,6 +20,10 @@ class Book extends Model
 
     public function pdf() {
         return $this->belongsTo('App\Models\book\Pdf', 'pdf_id');
+    }
+
+    public function author() {
+        return $this->belongsTo('App\Models\user\Author', 'author_id');
     }
 
 }
