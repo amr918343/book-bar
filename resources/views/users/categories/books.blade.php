@@ -1,24 +1,7 @@
 @extends('layouts.blog-home')
 @section('content')
-
-
-
-
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item">Categories</li>
-            @foreach($categories as $category)
-                <li class="breadcrumb-item">
-                    <a href="{{route('categorybooks', $category->id)}}">{{$category->name}}</a>
-                </li>
-            @endforeach
-
-        </ol>
-    </nav>
-
-
-    <div class="row col-12">{{$books->render()}}</div>
-    @foreach($books as $book)
+    <div class="row col-12 mb-5"><h1>Books Related to <strong>"{{$category->name}}"</strong> Category</h1></div>
+    @foreach($category->books as $book)
         <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
             <div class="book-restult">
                 <div class="book_rating_avg">
@@ -37,7 +20,7 @@
                     <h3>{{$book->name}}</h3>
                 </a>
                 <a  href="{{route('authorbooks', $book->author->id)}}">
-                    <p>{{$book->author ? $book->author->name : 'Unknown Author'}}</p>
+                    <p>{{$book->author ? $book->author->name : 'No Author'}}</p>
                 </a>
             </div>
         </div>

@@ -158,8 +158,9 @@ class AdminUsersController extends Controller
     {
         //
         $user = User::findOrFail($id);
-        unlink($user->photo->file);
+        unlink(ltrim($user->photo->file, '/'));
         $user->delete();
+
         return redirect('auth/users');
     }
 
@@ -167,7 +168,7 @@ class AdminUsersController extends Controller
 
         $users = User::findOrFail($request->checkBoxArray);
         foreach ($users as $user) {
-            unlink($user->photo->file);
+            unlink(ltrim($user->photo->file, '/'));
             $user->delete();
 
         }

@@ -2,300 +2,314 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e614890c-3253-4f85-a74d-d472eced9749" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/bs-v4/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bs-v4/heroic-features.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bs-v4/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/checkbox.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/delete-all-end.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/delete-all-strat.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/no-data.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/authors/books.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/authors/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/categories/books.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminBooksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminBooksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/book/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/book/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/user/UserPhoto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/user/UserPhoto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/adminlte.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/adminlte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/PhotoTableFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserPhotosTableFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UsersTableFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_08_085027_create_user_photos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_08_085027_create_user_photos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/PhotoTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserPhotosTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/02b36aa3a9416e597cae72a8c57c7f3f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/0303cd32e04777b913e44f7fc74d1fa2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/034d2df46f54d9f202b8465291ca7191.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/03a3b2cc386065ba8e3becef90fdfe32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/03d526389a896d91ab46814121432fdd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/070964ecad07a1da25734db1cbef85bd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/0756fb012e8d9e5a4cf2af961d05229a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/07f071523abacbb1a9a3ea9cedff205d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/086ba8b617da98c8cdf171227ac3c25c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/0a5276e96ded4113eabfd4a11392c77e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/0afdc25f58c9c8f2e631dd3fe12a3731.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/0b183304ea76a85c44c2d25211637511.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/0b3f9897caaa82876f4b84d43b87ac37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/0bc17f7517bcaefbb22d94b991115d80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/0bd0df062187bad51baf50ef241d8d48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/0c2d8823e48ebc7e3b1ebb087e080d55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/0c3b97073e3fa3f01d7b1d8be20cf24b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/0ee7c8a575efad5b19a0696b951aa01b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/106a8465f13ed0dc50ad265c9e6b601e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/10a1378cb2ad4ae3a1efc9ac4f085abe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/11bc2799cf8b07a50e921c63605af05c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/11bfa5f4876f5d42d818abbf69312b14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/123f402fd9178254bb11b84186855c2e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/128cc3db02e319deb14689a2d43748ef.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/132dca292c6184f3a6ed13b67887d601.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/13ee8fe497bfabf6a0876c3d40eac8f0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1414d9ccb050653ab00694790e235741.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/14be5d2bae38008b5d9255f9422c5f40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1565334541kal-visuals-WXn_iWViB9Q-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1565336166noaa-aySTZ82UGus-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1565374604oluwakemi-solaja-ZN52ZBFkw4Y-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1565944891kir-rostovsky-IaY7TyIoO3k-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1565944938kal-visuals-WXn_iWViB9Q-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1565949205Green_Eggs_and_Ham_book.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1565973367kal-visuals-WXn_iWViB9Q-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1565984166female1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1565984259female2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1566093761kal-visuals-WXn_iWViB9Q-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1566107733female2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1566130928oluwakemi-solaja-ZN52ZBFkw4Y-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1566247692kal-visuals-WXn_iWViB9Q-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/16216361aee8f6ebe072b5453b1e68ae.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1750e9851345755c99254a88d727bf78.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/177b80e8a2cb903178f62a8cad721031.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/178f7729d6ed48db2f17ae16b5b89db1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/182f9574c0c27e5bf4671381d7fa077a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/194cc90a2959db720a512d855acb5859.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/194ddebb7d300af5047eb37bdb398181.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/19cd2b25a9e0eb438cba6fa1c50dd387.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1aaa6a275906d706541783c5c8e895f5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1aeed51fc564b9281852eb2c0a83a47e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1c460cecd5c744cc8648f839389ff3ba.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1ce158c4c161d207868cebdf5f578b33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/1f5c6941885ff2843f8e3733ec090afe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/22076e93f35ab365286faf38b0c89232.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/2313d9ea530b9ad8160d7a6b04fd6df1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/23c639c18d8efdd13f28442cdfdf47e0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/23eeb9a3cf073eb1a985bc0349c4513e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/2860faef7cc7adf88d7c7127bd6729b1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/29afb13b5264d22c92e5b8dc4e70295f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/2bb8b20e21da95cf1bbcd177ba014513.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/2d5e6bf06e9a320fb880befa1c378b06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/2d99e9ee27ef27e32be65bb0b25b452a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/2e6fc5235c95e8af2ae404e1f417589c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/33c2d7ade30dd33d4e75e68e84a4d273.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/344cb9cae9b7ca27c92690621497a6b8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/352d5f4561ed5557947b92d5c8895224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/359d89831eb179c93d0ac78231003567.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/36dab3d69073d6e413c0007a7620bc56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/36fc030fe21bf027b6934066b7150977.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/37a5af824fb5d707bf0f50158e6434a8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/3933c6674e102921fafa7d40e78aaaf4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/3a65a399a50a516c69325aa97079f572.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/3bc79b7ea06b7f899f0d55b41436a029.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/3befb954db2c9c42b721e17e3254bcfc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/3c3b5f948a515497c541170d14e143e4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/3e607246ef53a663fd13f59500bc9bc4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/400845164c67b999d197e4083e4ffe82.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/415d187dae0a5bf53769a7e04be152c2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/423d9623fbf26c67945b1502013a7203.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/435ad0152006582792a4c4e00b1ef28a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/43e22d8c4efe7be7ffcbac9c40984b5c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/44c09857247a9f37acdf46e5f596c9dd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/44d2a0a2d983652f0575eeb2b8b3509c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/45726d5a462101addb2e856366934124.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/4625582986400e72536fe2b2a4b8b7e2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/4656bcbff7f16e84481185f97747ed3e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/4720bfc409ea40a97ef6a1db4cc01287.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/4a8238958fff19bc45a4bbb3ac65478e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/4b1234911fa71d881620e07d96b9fb39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/4c7daebdbc3f288b4a73ff3e28b28309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/4c85e929fc8a3c0f5d3851417b26476f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/4c8dbbba8494e2f2fdb540d3fb6086ef.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/4ea65582e6ea9b1b5b6829a8c70d2b9d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/4f1d6a901f53bff6e62d060d08c80915.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/50dee1b6ec0c637bf8f3bb4c3591c599.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/55163f8911b2d737e19d2ba733ba398e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/56f2d6ceb1701795b4a3c067b14c4a7d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/570f74a431c7470eac892a3b3469e39d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/59cb918a3c868599c7c1f710e8377782.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/5a73198ad645bac79335e7f290a4b113.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/5aed9196c91164d21cced85e0417b24a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/5bdc4e083c7ca27688131a2f0f89a2ba.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/5c0eaa39fc2da78c49b814847895c50c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/5c1c75f6f6691ed967eb6fda38336846.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/5d32475d695cbd125fffab94405b9389.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/5e401402c6563386d21b71eaf08d5691.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/5e42f5d658985160e98ec8553e1c1452.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/60c614d06a11e393d1bf3442fd468e88.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/6131331efb34de8f5bda0dc7684ccac1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/6192495341b55273c974a5f841dd9cf6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/633bc856e750f6bbcb38aef0050a287a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/65e42c58f48280d52741bd2a82333cd8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/666d5c71d4473b5867a976269d7c34ce.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/6685efd12282467f14615f8a0a57a3b0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/6931aa529888a7005cd29f2cc1113298.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/6992bc2d3642c45302f34c2d2e0898da.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/6b2a4bf5084241eaed7149521d673896.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/6caa738c7f27170c8bb55b798ac3f575.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/6e37e84e23d77df5492ef8a7cb4d880a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/6eaa925dfc57fabef83a619df610b0bd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/6ec88963a9e7d0b4e4707c51ea0919cc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/6f2eeaba195d1dd242e0a0709bb9c57d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/6f7f494130a42d68f165169dc0d8df74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/72acb8095d6fbc83f0d758fd3a347294.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/72fe51c40eed9e7a87fb830506ef048f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/75309b1b71b3c6194694f1aa07d4fcf8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/756e54e0378ac479b08d42e62b0aa48a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/757750e291cedd9b7deffdca419ffe73.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/75f323c52055d0fec3242d108ef1acd1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/76a0775b6c3d1d0e21bde88fad979e42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/78f6a319c0b44a8c71223c212640ff5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/79849437d45ec74f2749f9fc77628b36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/79cb21dfbf70b275db5dacafc7056cea.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/7f512b995c7356fc8f3f196499d89175.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/80c90e2e644d785ca241ec18318ad215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/80fbc5e414cdb9ed1542436c2e5fc8a3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/81686ec729657547b514248e1c79a41d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/81e10850882dce2439030002934719bc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/8378382a777d7212eea5327b93eeda05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/8412ff03a4cee2aa2b816a53be760898.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/84d455cb9c78b339fcbe803a97587ada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/870bc0fe5140d7666824a7cd18af23d1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/87f9319fd1531173a327c5ecd3a56bd4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/8e2d3ce566e1ed7bac2f5395f770b498.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/8e3c296d2f6735937990ca1b7ce8076b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/8f6bead9439967d1834dbf859c194044.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/8f6f8e04ef2820cc47154d62f98d3ab7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/904cde792737551c27dec2e66aef8a14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/9149e12597c9a140ae5b0590971354c4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/930dc0947042694deb615157fe060ba6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/93324c686dd352f27a2fd8ba0f40be86.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/94f05a13e26bf41a89870cf9d02c0350.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/953bd1e374accde01adb0b1d84d86d5d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/959d34acb135458a9b7dbb69cbc34f91.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/96c879c40819a7a4b2bd0d2901906049.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/979527b7cb98d1c2564cb9c93d3ee6c2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/999cae81d8dc05f6761bb0f783d0d926.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/9baf1c215557ad5c1b67fce50651f7a3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/9e3b33fa25a9b097ab64da9403b52346.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/9f599e929e14ffbaa58fe608ab4d2d1c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/9fa630030640c34eb2c3484159a14a50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/a1b4b00790e569dac3ff66af88f7e8bf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/a29aac50da10341ac739147ac8c199ac.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/a2efa581c4810473a5fb2eeaabaa25cf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/a2fd138e2526a7f28fd38c8f312f9c5f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/a32548b08afc4d4306a27032a406542d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/a342761e8099dc9215293c909d4f5523.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/a393cebfb09aae134e321c0f30940086.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/a48656f6e9cb4bda76f74e5dad715626.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/a5dbd13fcea435147071fc56e0d1d43f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/a7e2097bd0870dfb29f6c275799cbf20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/aa4a6605f6360be3b877c55bb23228da.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/aae5b3ecbead04c737e51b9fd74b4548.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/aca33ca39a15fb82b8e567910842f2dc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/aff91c0789a2030bc7638207b6da8e69.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/b1c3ea634ef9dd5b74e60299184054fa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/b7439feaa8cad6e2b8ab6347f3f8e228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/b772fbfd57562865f9df59c3332b2c66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/b8419c8b7b4290b8d15abe79613227bc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/b860e9ee289c0f7674d4f81de4aa024f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/b8e1718377c8d06be0e40ee98a22ad97.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/ba57b085827968a32d6d6bb74305da7d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/bbbfee552fa7d1b303b5f58b617f531a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/bd3a7dba3f5ada28bd3b33ae1dd9c391.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/bdb7e71223a940d189d59f41bbe53af4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/bef47ef4e642844ad7a381ac0312580f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/bf3c6a448e2c0b85268736294c80d973.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/bfa9842dd93212de1c0c4f4864e0256b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c06248f2b87f81947c58e39438187a38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c093cc85a3259a5d59a6e74e1244d78a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c17d34fe0b3b29fbfc72c8a720aecd2d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c1b8fae35008cd27426915d333232c20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c3da200a82c1598fd4b78e27f6919881.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c3ff657f3dc966f4ba10cd6e05958f6d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c4f2cc8c50ff0c12cfe6fc201d9cd029.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c5d79e8b39424aadbdddc30bed4fcab3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c60599c09e9a72e73e4fa69744a64e3f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c6406c1e74a94269a293f50056f89b49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c8577f22863b4bddd84e5d0af79dd6f0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c94ab07e475b60dd5e8b2045a6488396.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c97fea383cafcd27cf50f1c59cb6e20e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/c98bf14855514d483e1807bf326170e8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/ca030e95a55a72512c0bc2f96aeb8dbd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/cd6e47fa39a866430d23daabbd42d1bc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/cd730dd5ab33be71e754dea1ab99d8a5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/cd88e818aa2da8358f623204eb474fb1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/ce0c74019012add443091d27ac30cee8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/cf21c3ff7240184c3ba4c26ef94af220.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/cfb5c3e6d940087c3f674088c2c555be.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/cfc4fbcbe02d9c498863d7e2b8561e21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/d18955bc9a54fda21d959d3106cad8fc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/d32c234deff25d76d733c7922aee3316.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/d4363a19a9427370cdfc24eb8063190f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/d550c2f4a04d3d2410fb9a4614377cd0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/d565b846fe0160db58a019a42d32a78d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/d771007e1c3c23146dfd2443acf8c5de.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/d9d1106afcd235a9db24d8a29e4b2a8b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/da8fcdd3cdb4daa1952b8dd350c73284.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/db10d6b425586a573bf6c855a2a8dae1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/db84177a2ef9daebec13027fad19cdc7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/dc22f05d0bdc2f82cd7a61c2a6b03166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/dd06a3876b929a5ae31201c4ab7d64a0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/e1601a39f86fc412ebab38a1e8979a56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/e1879437713a0690c4183baf06f91768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/e24309ca109f8735f4675c198dbff103.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/e334e316ac952efeae1fdae214c6c19b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/e44ee667813715cbbe5030d7f6752273.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/e4d0241345ee2dccbb947eff914c1d34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/e8d4bae83ccc338f78a96ad36e7f2d4b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/e95ea69495e0935da56133a3a808b2eb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/eb2fb43a7fa6e7146c656b80f04eac5c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/ee9947e8b6e7a575182d7a571b392851.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/efb1ce0252f15942dd1438c7f89173fc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f0fb7c5f0303acef5d58a8a2ea2234f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f1da94db5e9c96bcc333d697dbf0f4fe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f1f114f4007e26ffea969e49751bd444.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f3880a66c09910ec372ed4f46246056d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f3f3672f7558e75cf13969d47c6f267f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f44cf12591dac268f89fccf6e11d7f16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f5162e3665ef9aabf634dbd5a4736c04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f75833354f810fe54552bac0e120bb2e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f79bfaab64985c88fa4fa3cbc500c41c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f86603767eb5bf4a946db27022f75237.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f921029551c7ad1f34888a8c66e59eae.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f946c02642f94f929a672041b29123d6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f94b9f42db52657b18e1a14420f576c7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/f9b4e6ec4ac154bfd4902c4b9e4069e8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/fa0404780c90b5bdc051816a4ec0aea4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/fa179767ef2f58c5e6da8f77517f7b48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/fa2278db72eb94bff17c985a81f62ff4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/fc0ff6f395b738480d603832d899a32b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/users/fdfcf5972ffed37fa3bf4ab7c63e8ac2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pdf/1566409316scandle_in_bohemia_pdf.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/books/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/users/UserAuthorsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/users/UserAuthorsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/users/UserCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/users/UserCategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/book/BookPhoto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/book/BookPhoto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/BooksTableFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BooksTableFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bs-v4/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bs-v4/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/01ac491abc8ae70882e7ca7150221db8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/0442f51df2932bd93202b21c7512b898.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/04e60ba94af0503dd7cbe57f3561088b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/05220a3697b620505879e9a02b68efeb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/06e9dea597e180ae5f3d69aadbd07d51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/0821525533d3f78b26ddb649dc216d36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/0cd3c817bdc35d725eb85191f60d4ddf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/0e9aaa884227fc7c3dcdd7c941ca3211.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/1565949247A_Scandal_in_Bohemia_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/1565949366A_Scandal_in_Bohemia_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/1566156524A_Scandal_in_Bohemia_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/1566248174Circe_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/1566248262A_Scandal_in_Bohemia_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/1566409316Circe_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/1566592687Green_Eggs_and_Ham_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/1566592828Green_Eggs_and_Ham_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/1566593109Green_Eggs_and_Ham_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/1566644544inand_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/1566647856A_Scandal_in_Bohemia_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/17f7dd3d88304ab130f7c39eb05f97be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/22b8802a5059d85beab16ddcd860d07d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/23a26033bfc996ecafaeb38bce2d840e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/24e22fd7d140de43f1bb01b9ff73c513.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/25951642e673140879430798ffe5645d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/25f3baed90e0d70240e9bf0425bb66c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/2b781246c08439451fd95719b8c8ce77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/38f2e71ba5b16a97a877c69cf79fe7e3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/39e90c32d8269f3bce71933276bfdab7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/4a66508aecc0a29b5a8b342b36a39a1c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/4d031b0a3bf08fa86d129aa327844ab2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/4f091c6a393efbd1e2805472f6e05c33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/509468257d11e0ac6f5215697d6f6fe0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/51eeb4854c9f2b672830200daa1a4d8f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/55aea41d9c14cd719900024e4c92365f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/581a2b8e43097fec964b5fea6abde5e5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/651766a8494feda8ef8641848ab82eb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/6b81b2768f7bcfebcff0c1bf15432fe7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/6ebcdec2ea85170a634361b568bf405f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/75dbd583831b3bea83880b7bd88025c7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/7b38d0c7d707084cb3c68222a9af575a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/7c1baff5afed2a30fd66ea63ca3f1a40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/8051a40d1b8c51737115868d7bb18028.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/90a238ff5229edb93d5d227365e4de90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/995a66ec4bf5046b0403ee94befa36c8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/9d67677fbfc1e58c0e61b7fbdc32cab2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/a2c2eb83e47579334bcea056943fb39d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/a2f4937844b3dbe1ad0114099d399174.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/a3608a46441b0816beb9d71a27b9b18c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/a5ff3aae29fdf8b53bc8e80d56f82bee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/a6b93ddd18fc1055279e70945016e842.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/a719659775b2b8212efbffd8d4fcb86d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/aa17a11284012c67d7f9ca9f81b8ee10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/b19cfa0b2eb46de1af1c2b80e36c1856.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/b2ea5ffa5379a3228d4528d644cabcf4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/b9e64290f83c4c4892d14299db787046.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/c27ccfe882f81f261e878a05b9740129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/c5c06cb0cf6a75d8ec8146a7e57ac41c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/cc75e9033035207b4da49e85262d1606.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/d04efe7594a126662c10cc15487e854a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/d74a83aa60ac9d8ec60334f2d7e76664.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/db2d1bc867fdfe88f408f0f5f6646158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/de783fa9367839fb8827b76533021f71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/e38a506ea2e6e8f6f157b61ae767498f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/e8e5be9992a62e3b73e6cc52002528bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/e9ae0b053bed54ff7ee0a4b37ecb92a7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/ebd1c61af2d142c1bd55c76ce3058380.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/ecf09d16067cef3c9a45113c8a9c01c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/edc2e0904b6dbadbebbe9bc5650fb739.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/eea2161fa5b5afaba42c955006997651.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/ef636c172955f289bfa9efbb9823f0f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books/f6b6dbab317ede4bd79560d943cec2d7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/026f1169df73dfd1b4fe824b955e8af0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/029d7cb38276083c1db9ce4acafa10d2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/0317e7e9000daefb9305e3425486eef5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/035551b6930ef877b7297f1133735aba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/04ac551ec554e778489878f05f6f704c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/04ac88b72bbff9e4e5323e63e20cad2f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/06486d6eec5d8ee11b65707e8c62357b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/071b85cde32086ad2cc7d36e54488dcb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/0725cb89c717ab443823377d48283e2c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/07bfe61fd29001d03f413224f6963e22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/08f7644e4f4607b2a640153e6cd8ac05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/098fb3dfa76d11b27b1f5aa0be612198.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/0a80529aa72e5d73a3a8126cb716f5cc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/0c42d80220ed2bc3f1766371af172acf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/0cb50f6f5442c4d9fb276af07110f62f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/0d00157822aebb6c747415c145b4ad6a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/0f03f92b8035f6a0a02861067041ac7c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/11605caec06f3300a6cb7c26911566a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/122a360665bbfc4488ab080f663e80ab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/14fc1eaf91da8ffc600d8a3bb5bc63cb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/1566663749kal-visuals-WXn_iWViB9Q-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/15dc2f4cc19ed397119ace8504767f02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/16a1ef7ffce670779868e256b758eb03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/18bfaa573058cffc9ac5d4ff6471368d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/1ab341a7a674881faf75dcc9e760303f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/1af5fd00757b487337dea9277b7f6078.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/1f8040b9a41c3ce50c59fdc2c56c6e77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/20d43f0eb056253cfb2b7b3ca58a956c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/21be8257c5b9fe52849f66c75e5bed83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/21fb79477ad82f5b164c5e2c4ae367b3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/2311ae9ba420b66e75bc36758bd67654.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/2372f14ac09be7a3755069b709d6caa2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/24d96b9d673c81cba028bdebaff83e2f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/272116b26c541f92117db09e472078ff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/27358e21ef28ce31cb1eb00bcf292e23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/275af15f2a480c375c4e5aae6cf8ce52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/27f37f4c59f99ff0042091d20d0fcfc0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/29406e2511317f64884be291fd25e5fd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/2bb05bc22c870af3ed74067d33d17983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/2bc3e174213fe3bb4e91c9732bd8abfa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/2c50b321fac6405f464fa26fc97d2d49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/2ed371018924256de08b1b1736bac6dd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/2f6f08c4262a80538c7f7ba605638830.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/2fdf7e370ec1318a86f9b63518f0b1b7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/30376f0430e9f595ee6f59bede801a99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/32202aa0368c0b9d71c88d8a2e89af8a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/32faaa17c2246a5c4e68b466a3324080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/33db1925a6c5b9f8c99f8a796408f656.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/34c6b18d767d554ab2b7776da195c335.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/390579f043b1491df41a4d1c911cb386.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/3a8d78f68ebfc5493849ff5b6d5b2654.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/3b4434f781ecd9316ce51f5ac1fe9da4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/3c6c46c772a2c54f4d47131b1440e959.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/3c83dc299c3686d389ec522e899a6538.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/3caa68c440eec0c9716071068b853e62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/3caecb998e04843dd6b73cbee4953437.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/3dc100da15e18afcdcd71ddb671d65b9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/3e28c1b2c7e2968fd92f35c0a640a242.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/40610e10f36b02cb3f70e71e35ae0e3c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/4065ea409f4d00b863370471b54cbdf4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/4123e85134a3a7c787fcb0713dc09c4a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/42b5ada3f83b6271d4f7b2ca16a1bca2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/438c40edfa30b19ceb79898afa7c168b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/4432653374a75d184aec5a5c2bc60048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/471d6d27982ad6515cf66cc323e7a091.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/4846fb173c3a013c2765a7e9312be5e3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/4b002992a1acd06331ad7c00c32f434f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/4c642deffe92fe66bfc4b363f2c8bd6e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/4e6d6a6a3a647d6f0b745e72af81d76e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/52817359078c8eb41bbe8459c30ffce5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/54860a479b231feff6bfe1765a819ef9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/560767956c7ef30c0dbe5228331ade49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/571633206ea6bb9d975959f47e63082d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/590ae6388b1b448924fc556fe67e1a97.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/5ac68b72a530e3f382e3067b538373ef.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/5d2afcce7211ec33ac973d8ea3e192b6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/5d4fd06dd3d3a6928777128683b1562e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/5d618416af97075d17eee9c42cc334d4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/5e631b570efea189e1b57151f4799bbc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/5f884664bd0ce64c001e45be8805e13f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/5fae131f067f9b74f4156b5b3b48e6bf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/5feed34aa57e6165dd459b5427ad5227.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/6045f983df980b42607594bdab1b8c9d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/62097193861305b1170ae0523585bd1e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/6374abf21d08f9f9151f8bb8c93b50e3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/63766e146c73cc1e13a957b4c6b92de0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/63d33493a2c05e18a809f215ff9029fd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/641c77edb8e86122be9e7ca381537b4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/64d3afb3e9bff7dd0d787aeb11f6cc9b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/65a668bf9c2d98986bd08391a2e94739.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/665b449594e3009bf097774e1ed5e9cd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/66f64d133f305f02e81f298d20c9ae50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/67373e84c620a44300014b803b90bde4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/67d22d6038a6622c5a9ccc1c09ccbe2f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/698e6f049d47b25deda078a32ff366b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/6b3f894e7d25de72dc2de56632fb9c05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/6bb5c23cd9dd2c21d7d7d194d0f04ae1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/6ee0fa8c1273c0a95a9a8f2a9c8e4b41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/707cb2948653a1ad73cdcbe969fc536f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/71fa00011fae49a4ecd89115bd607968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/72c53024264339c03111718fcb174e02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/73beef6794286f8c641f062dcd4b7d5e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/7484407beff18d8d07400403649dd731.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/758d289160f2bfe915e064d37bbd765d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/76322ba4b2a52824689d28284d7fefdf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/77d5e480b7da94db146b1c4182952529.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/7804bcf3cef4d60f2582aa515860d294.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/78d6d6fa41a7561b5659cc0a2e9e5f61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/7c2b11f53ba5c317071bfbb9629bb2ac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/7cb347ab0b7a0a80773cc7570aa1d79a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/7ebb2c7b210d6850e3e8b0a769ac582d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/845aeb91ff04c33a08fa71c60bbfcafd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/8915dada1395d327f01c8810e774608b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/8b0945e6f4b65a1e2a044cc9efb3ff4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/8b3a17e387aa163e30030d2d9cc853c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/8d998622c9158cc93e96685077f1e96b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/8f3e8167c12147de75fd1816df256e4b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/90662751a3c78efadd40c67ebc3a4568.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/90b6a73106fc14fd97dc6a05d21fd5ae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/9304f1cab5cac106edb9d17459a3e568.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/94c8298454b6b5c3015198dbc01efa94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/9597c0ef8702fc378f1c417878132a8d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/96fe04152f1d9a63908221e83ac4d21d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/989b74a9c78b86b766b17b1479d50f3c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/9979c54e10bc953f8412250638ec0481.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/9aa894962c0f2ec439a9f199d0a10d37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/9cca89bc1660649a768285e2f38b5df9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/9f29083acf9e22c468f8c4f14bc9bee0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/a107b73ad6898682e8d6bdee97169dac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/a1379853c0bf7f5aa489767862e6af26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/a2cb233c9a1475d99c08e98a3154f985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/a47e4b914bdaf37c8900f19a8bff316e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/a4b2cf9ed1581102c837f23fa125cdd5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/a4b4e398d68798d1b9b35deedc131d9d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/a503174d23fa7a61976b092ab34138c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/a5067f59316bb1ab4d3f929c619320f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/a58ce67435e5b94eb6883146a3dc5c54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/a6463d7f9af4542c8f143b8e4a040abe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/a6d53881d5d2471863888e73165e0628.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/a756d5c1cbe26805b8d84c7520438184.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/ac0c6e6e7b135d49e5c2d4b3db198a5d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/adaa9d15368ce425a01429b64e49b32e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/af026667bf2f87fe76beb52c1c4f3328.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/b3f243de9bb335569e1c341908ff32ba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/b4a6f93a90284dc730761e962d6b7a73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/b8c38df3622722b707a0fe9fbe2ce6cd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/b93d5e46254b9b70aab7cdbf7b9128f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/bc334e9ebb22348f1365773c36de6cd4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/bdeb60accc65995eb527de32ad8eb129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/bdfdd46da397d7a552e12f9f187f4117.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/c0ab1bda77a5ceb53901cb9e41ca7e0c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/c108187efad681e6f8a2d3d3d03c4c80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/c1d38a196783771a565d3b172bfe2e22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/c379ac2e7df89632477617b51d55bff0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/c3a2a1b022c4c97f693409ef8f0ea88e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/c5f0e6ad8321c7ae9109e9541cd6830a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/c6b45b9a25eb4a3a576a98b97439bd52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/c79d392abb2831075f7175d05d74a512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/c94e6ab33b80b420f8cdb876abee218f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/cab15402dc4772136e8930d8fa697c89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/cac0bf59304c44af97a017541714366d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/cc307975fa7981e6753339b5aae191d9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/ce02a3a888eea59c26086a7c121b5303.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/cff6e0f1606255d2355f9ea26ba5dd6b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/d02d19e16d4b7bfc122fe1873dbdd4c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/d0732e24a43ae4e0308e6215c536b1b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/d0795fd7a9e586bfdfa33fa8f7f11dc8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/d2234b8ccfec3fca6a0f3b4549f65d16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/d84693116b93043f18c924aee7d12a9a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/d8673bfe88b231bec471b1249bec78da.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/d8cc12b73d90424922ccb88291ca5cdf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/da61030b8424ed2a6eeec6398e903d0f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/da6cb316a84c4f644a193984d3ff085a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/da99760b59c3e21d8aeed9362b608457.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/dbaf665f454d007ddb0329f867ec26d1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/dbe4f62fea548604f70bd37da3ef682f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/debc56e595c25728b692d80feb92a12c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/dfbe224698bd9fa3bebc9a7a83fd2d31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/dfcc593bb200b899ebb85127b06a0300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/e1eb71d4641c2b77fca33180b071d72d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/e4ea7d9732111164db2379963001049d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/e795dce9eaec97d7f85a9adf8763a4a8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/e79abe08b5152e6a83eae6a7715a6591.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/e7a367df7442f35cfedc50adef992e57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/e8a1e0b222b27131ce2a81812b6e84ca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/ea14d7a342a65de66f8df935f3c9be8c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/ea932df4b8773867a0cdc12ec5ee1e20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/eb949bbe23c12d81d0a40864fef38a0b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/ec926f9a128c8f4096681c9518df504f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/ecd733b2ae2259c37d49eb354272c700.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/ed4a3727301dd7e7d97f1fd725ef9acc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/edc531379b40a9b5a960745ad9668d2e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/ee24990a3472db7ba402d90845377508.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/ef85156ba02094867aff8d0302f1c750.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/f055b5a054461b1e9e1d3ab4e72481a0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/f0efd4df8da81166d8c4d8f230b0182a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/f115cc60b092a71ef2938b5301c27abc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/f1807711fe452dfa4cdfba88f1b738ee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/f47df0e10ad30d539bfc86069c57d71f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/f5dda22bf7ad8897ea400d27fb90eb91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/f5e6e65d35c997536d0e0c99205a984f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/f8736743a99a4ab3fd33622ab23209e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/fede9753a519cce2ca8aaa992005f67c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pdf/1565949247scandle_in_bohemia_pdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pdf/1565949366scandle_in_bohemia_pdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pdf/1565985088scandle_in_bohemia_pdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pdf/1566248174scandle_in_bohemia_pdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pdf/1566592687scandal_in_bohemia_pdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pdf/1566592828scandal_in_bohemia_pdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pdf/1566593109scandal_in_bohemia_pdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pdf/1566644544scandal_in_bohemia_pdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pdf/1566647856scandal_in_bohemia_pdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pdf/1566663570scandal_in_bohemia_pdf.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/books/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/books/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/checkbox.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/checkbox.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/blog-home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/blog-home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/blog-post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/blog-post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/main_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main_page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/authors/books.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/authors/books.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/authors/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/authors/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/book.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/book.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/categories/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -326,72 +340,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/blog-home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-              <folding>
-                <element signature="e#5025#5031#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/home.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/users/UserAuthorsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="e#46#73#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/users/authors/books.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="165">
+              <caret line="24" column="65" lean-forward="true" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/users/authors/index.blade.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/users/UserBookController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="407">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
-                <element signature="e#228#290#0#HTML" expanded="true" />
-                <element signature="e#418#439#0#HTML" expanded="true" />
-                <element signature="e#483#504#0#HTML" expanded="true" />
+                <element signature="e#46#71#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/main_page.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="284">
+              <caret line="162" selection-start-line="162" selection-end-line="162" />
+              <folding>
+                <element signature="e#40#67#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#45#81#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/users/categories/books.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/users/book.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminBooksController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="187" column="49" selection-start-line="187" selection-start-column="49" selection-end-line="187" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/users/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="68" column="38" lean-forward="true" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte/resources/views/page.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="64" column="84" selection-start-line="64" selection-start-column="84" selection-end-line="64" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -409,16 +452,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>search</find>
-      <find>publ</find>
-      <find>coll</find>
-      <find>logo</find>
-      <find>fa</find>
-      <find>flex</find>
-      <find>valide</find>
-      <find>store</find>
-      <find>upd</find>
-      <find>stor</find>
       <find>update</find>
       <find>author</find>
       <find>delete a</find>
@@ -426,25 +459,37 @@
       <find>checkBox</find>
       <find>scr</find>
       <find>home</find>
-      <find>cate</find>
       <find>book`</find>
       <find>cat</find>
-      <find>img</find>
       <find>index</find>
       <find>render</find>
       <find>show</find>
       <find>books</find>
-      <find>book</find>
       <find>us</find>
       <find>user</find>
-      <find>logout</find>
       <find>categories</find>
+      <find>aut</find>
+      <find>cate</find>
+      <find>book</find>
+      <find>diff</find>
+      <find>.desk-book-view</find>
+      <find>.desk-book-view .media-heading</find>
+      <find>exampleModalLong</find>
+      <find>img</find>
+      <find>admin_cus</find>
+      <find>read-me</find>
+      <find>https://fonts.googleapis.com</find>
+      <find>login</find>
+      <find>logout</find>
+      <find>modal</find>
     </findStrings>
     <replaceStrings>
       <replace>dashboard-count</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\I Love Reading\app\Models\user</dir>
+      <dir>C:\xampp\htdocs\I Love Reading\vendor\jeroennoten</dir>
+      <dir>C:\xampp\htdocs\I Love Reading\vendor</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -453,23 +498,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2019_08_23_204310_add_description_column_to_books_table.php" />
-        <option value="$PROJECT_DIR$/app/Models/book/Book.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/books/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/includes/checkbox.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/includes/delete-all.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/includes/no-data.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php" />
-        <option value="$PROJECT_DIR$/resources/views/includes/delete-all-end.blade.php" />
-        <option value="$PROJECT_DIR$/resources/sass/style.scss" />
-        <option value="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_08_08_085027_create_user_photos_table.php" />
-        <option value="$PROJECT_DIR$/database/factories/PhotoTableFactory.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
-        <option value="$PROJECT_DIR$/database/factories/RoleFactory.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Models/user/UserPhoto.php" />
         <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
         <option value="$PROJECT_DIR$/database/seeds/PhotoTableSeeder.php" />
@@ -482,28 +510,45 @@
         <option value="$PROJECT_DIR$/database/factories/CategoryTableFactory.php" />
         <option value="$PROJECT_DIR$/database/factories/BookTableFactory.php" />
         <option value="$PROJECT_DIR$/database/factories/AuthorTableFactory.php" />
-        <option value="$PROJECT_DIR$/database/factories/PdfsTableFactory.php" />
         <option value="$PROJECT_DIR$/database/factories/RolesTableFactory.php" />
         <option value="$PROJECT_DIR$/database/seeds/AuthorsTableSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/BookPhotosTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/database/factories/BooksTableFactory.php" />
         <option value="$PROJECT_DIR$/database/factories/BookPhotosTableFactory.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminBooksController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/resources/views/main_page.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/bs-v4/home.css" />
         <option value="$PROJECT_DIR$/app/Models/user/Author.php" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
-        <option value="$PROJECT_DIR$/resources/views/users/authors/index.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/users/UserAuthorsController.php" />
-        <option value="$PROJECT_DIR$/resources/views/users/authors/books.blade.php" />
         <option value="$PROJECT_DIR$/public/js/home.js" />
+        <option value="$PROJECT_DIR$/app/Models/book/BookPhoto.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/users/UserAuthorsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/users/UserCategoriesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/categories/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/authors/books.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/categories/books.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/checkbox.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/main_page.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/style.scss" />
+        <option value="$PROJECT_DIR$/resources/views/users/authors/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/bs-v4/home.css" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/books/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/books/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte/README.md" />
         <option value="$PROJECT_DIR$/resources/views/layouts/blog-home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" />
+        <option value="$PROJECT_DIR$/database/factories/PdfsTableFactory.php" />
+        <option value="$PROJECT_DIR$/database/factories/BooksTableFactory.php" />
+        <option value="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte/resources/views/page.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminBooksController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/users/UserBookController.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/book.blade.php" />
       </list>
     </option>
   </component>
@@ -596,8 +641,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="3" />
+    <option name="x" value="83" />
+    <option name="y" value="115" />
     <option name="width" value="1340" />
     <option name="height" value="688" />
   </component>
@@ -613,50 +658,6 @@
             <path>
               <item name="I Love Reading" type="b2602c69:ProjectViewProjectNode" />
               <item name="I Love Reading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="I Love Reading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="I Love Reading" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="I Love Reading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="I Love Reading" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="I Love Reading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="I Love Reading" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="I Love Reading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="I Love Reading" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="I Love Reading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="I Love Reading" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="I Love Reading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="I Love Reading" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="I Love Reading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="I Love Reading" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="authors" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -737,12 +738,12 @@
       <workItem from="1566372068074" duration="1063000" />
       <workItem from="1566386703203" duration="17568000" />
       <workItem from="1566471432242" duration="6185000" />
-      <workItem from="1566544634075" duration="62313000" />
+      <workItem from="1566544634075" duration="85994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202640000" />
+    <option name="totallyTimeSpent" value="226321000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -755,13 +756,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" sideWeight="0.501292" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.498708" visible="true" weight="0.28776434" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.498708" weight="0.28700906" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49924472" visible="true" weight="0.28525642" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49924472" weight="0.4150641" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007553" side_tool="true" weight="0.2676282" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -779,6 +779,29 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="npm" order="1" sideWeight="0.501292" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.498708" visible="true" weight="0.28700906" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49924472" visible="true" weight="0.4150641" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007553" side_tool="true" weight="0.2676282" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3525641" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.37980768" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32852563" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.32852563" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32930514" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -800,189 +823,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/errors.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/books/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/checkbox.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/no-data.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="true" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/delete-all-strat.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="114" column="5" lean-forward="true" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/delete-all-end.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="95" column="106" selection-start-line="95" selection-start-column="106" selection-end-line="95" selection-end-column="106" />
-          <folding>
-            <element signature="e#155#1273#0#HTML" />
-            <element signature="e#224#1314#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="169" column="39" lean-forward="true" selection-start-line="169" selection-start-column="12" selection-end-line="169" selection-end-column="39" />
-          <folding>
-            <element signature="e#40#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/book/Book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_085027_create_user_photos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/users/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="59" column="67" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/user/UserPhoto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/framework/views/f7fc934b13c197e6b0b6808282195f107bdc2021.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="67" column="82" selection-start-line="67" selection-start-column="82" selection-end-line="67" selection-end-column="82" />
-          <folding>
-            <element signature="e#3139#3161#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/PdfTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/PdfsTableFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="e#66#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/RolesTableFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UsersTableFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserPhotosTableFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/stubs/seeder.stub">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/AuthorsTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/BookPhotosTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1011,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/BooksTableFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/AuthorsTableFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1025,52 +858,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/BooksTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/BookPhotosTableFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/bs-v4/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="98" column="15" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/books/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminBooksController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="100" column="10" lean-forward="true" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1105,61 +896,293 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/users/authors/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#228#290#0#HTML" expanded="true" />
-            <element signature="e#418#439#0#HTML" expanded="true" />
-            <element signature="e#483#504#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/main_page.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/home.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/book/BookPhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/users/UserAuthorsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="158">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#46#73#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/home.js">
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/categories/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#304#325#0#HTML" expanded="true" />
+            <element signature="e#350#371#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/users/UserCategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding>
+            <element signature="e#46#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/post.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/users/authors/books.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="192">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="685" column="1" selection-start-line="685" selection-start-column="1" selection-end-line="685" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/main_page.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/checkbox.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/book/Pdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/bs-v4/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="282" column="4" selection-start-line="282" selection-start-column="4" selection-end-line="282" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/books/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/books/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="16" column="128" selection-start-line="16" selection-start-column="128" selection-end-line="16" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/user/UserPhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/authors/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="76" column="132" selection-start-line="76" selection-start-column="132" selection-end-line="76" selection-end-column="132" />
+          <folding>
+            <element signature="e#3154#3173#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/blog-home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        <state relative-caret-position="187">
+          <caret line="11" column="90" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/PdfsTableFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
           <folding>
-            <element signature="e#5025#5031#0#HTML" expanded="true" />
+            <element signature="e#67#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/users/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/books/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="57" column="47" selection-start-line="52" selection-start-column="40" selection-end-line="57" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/style.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="143">
+            <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/BookPhotosTableFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/BooksTableFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/BooksTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte/resources/views/page.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="64" column="84" selection-start-line="64" selection-start-column="84" selection-end-line="64" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminBooksController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="187" column="49" selection-start-line="187" selection-start-column="49" selection-end-line="187" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/users/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="68" column="38" lean-forward="true" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/categories/books.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="24" column="65" lean-forward="true" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/book.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+          <folding>
+            <element signature="e#40#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/users/UserBookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="e#46#71#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

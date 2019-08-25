@@ -40,7 +40,7 @@ class AdminBooksController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -74,14 +74,13 @@ class AdminBooksController extends Controller
 
             $file->move('pdf', $name);
 
-            $pdf= Pdf::create(['file' => $name]);
+            $pdf = Pdf::create(['file' => $name]);
 
             $input['pdf_id'] = $pdf->id;
 
         }
         if ($author = Author::where('name', $input['author_id'])->first()) {
-        }
-        else {
+        } else {
             $author = Author::create(['name' => $input['author_id']]);
         }
         $input['author_id'] = $author->id;
@@ -93,7 +92,7 @@ class AdminBooksController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -106,7 +105,7 @@ class AdminBooksController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -121,8 +120,8 @@ class AdminBooksController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param \Illuminate\Http\Request $request
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -157,14 +156,13 @@ class AdminBooksController extends Controller
 
             $file->move('pdf', $name);
 
-            $pdf= Pdf::create(['file' => $name]);
+            $pdf = Pdf::create(['file' => $name]);
 
             $input['pdf_id'] = $pdf->id;
 
         }
         if ($author = Author::where('name', $input['author_id'])->first()) {
-        }
-        else {
+        } else {
             $author = Author::create(['name' => $input['author_id']]);
         }
         $input['author_id'] = $author->id;
@@ -178,26 +176,30 @@ class AdminBooksController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
     {
         //
         $book = Book::findOrFail($id);
-//        unlink($book->photo->file);
-        unlink($book->pdf->file);
-        $book->delete();
+        if ($book->photo) {
+            unlink(ltrim($book->photo->file, '/'));
+            unlink(ltrim($book->photo->file, '/'));
+            $book->delete();
+        }
         return redirect('auth/books');
     }
 
 
-    public function deleteSelected(Request $request) {
+    public function deleteSelected(Request $request)
+    {
 
         $books = Book::findOrFail($request->checkBoxArray);
         foreach ($books as $book) {
-            unlink($book->photo->file);
-            unlink($book->pdf->file);
+
+            unlink(ltrim($book->photo->file, '/'));
+            unlink(ltrim($book->pdf->file, '/'));
             $book->delete();
         }
         return redirect()->back();

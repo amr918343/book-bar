@@ -12,7 +12,7 @@
             <select name="checkBoxArray" id="" class="form-control">
                 <option value="delete">Delete All Data in This Page</option>
             </select>
-            <input type="submit" class="btn btn-danger" value="Delete">
+            <input type="submit" id="submitBtn" class="btn btn-danger" value="Delete" disabled="disabled">
 
             <table class="table table-bordered text-center">
                 <thead>

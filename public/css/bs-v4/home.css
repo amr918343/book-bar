@@ -160,3 +160,125 @@ a {
     margin-bottom: 0;
     font-size: 13px;
 }
+
+ /*Book View*/
+
+   .desk-book-view {
+       position: relative;
+   }
+.the-box {
+    padding: 30px;
+    background: #fff;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    border: 2px solid #dcdcdc;
+    position: relative;
+}
+
+.media:first-child {
+    margin-top: 0;
+}
+
+.media, .media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+
+
+.desk-book-view .media-left {
+    padding-left: 25px;
+}
+.media-left, .media>.pull-left {
+    padding-left: 20px;
+}
+.media-left, .media>.pull-left {
+    padding-left: 10px;
+    padding-right: initial;
+}
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+.media-left, .media>.pull-left {
+    padding-right: 10px;
+}
+
+.desk-book-view .media-left .book_page_img_container_parent {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.book_page_img_container {
+    height: 255px;
+    width: 180px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.desk-book-view .media-object {
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.media-object {
+    display: block;
+}
+
+.media, .media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+
+
+.desk-book-view .media-heading {
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 33px;
+    margin-left: -380px;
+}
+
+.book-first-details .book_rating, .media .book_rating {
+    color: #ffb400;
+    font-size: 18px;
+    margin-left: -365px;
+}
+.m-b-5 {
+    margin-bottom: 5px!important;
+}
+.rating-top-to-img {
+cursor: pointer;
+display: inline-block;
+}
+
+td a {
+    color: #163758;
+}
+
+tr {
+    text-align: justify;
+}
+
+.f-s-20 {
+    font-size: 20px!important;
+}
+.naskh-r {
+    font-family: naskh-r,Helvetica,Arial,sans-serif;
+}
+
+.book_data_table tr td:first-child {
+    padding-left: 5px;
+    min-width: 110px;
+    vertical-align: top;
+}
+.book_data_table tr td {
+    padding-top: 7px;
+}
+.modal-lg {
+    width: 80% !important;
+}
+.modal-body {
+    width: 80% !important;
+}

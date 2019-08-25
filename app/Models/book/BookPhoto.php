@@ -16,6 +16,6 @@ class BookPhoto extends Model
     }
 
     public function getFileAttribute($val) {
-        return 'images/books/' . $val;
+        return '/images/books/' . $val;
     }
 }

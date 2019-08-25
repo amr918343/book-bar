@@ -9,6 +9,7 @@
     <meta name="author" content="">
 
     <title>Home | Book Bar Online Lib</title>
+    <link rel="icon" type="image/ico" href="{{asset('/images/icons/bookbaricon.png')}}" />
 
     <!-- Bootstrap core CSS -->
     <link href="{{asset('css/bs-v4/bootstrap.min.css')}}" rel="stylesheet">
@@ -48,7 +49,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Categories</a>
+                    <a class="nav-link" href="{{route('categories')}}">Categories</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{route('authors')}}">Authers</a>

@@ -9,9 +9,9 @@ $factory->define(\App\Models\book\Book::class, function (Faker $faker) {
     return [
         'name' => $faker->name,
         'description' => $faker->realText(),
-        'photo_id' => $faker->numberBetween(1, 60),
+        'photo_id' => $faker->numberBetween(1, 25),
         'category_id' => $faker->numberBetween(1, 10),
-        'pdf_id' => 1,
+        'pdf_id' => $faker->numberBetween(1, 25),
         'author_id' => $faker->numberBetween(1, 20),
     ];
 });

@@ -18,9 +18,12 @@ Auth::routes();
 
 
 // Users routes
-Route::get('/categories', 'users\UserCategoriesController@index');
+Route::get('/categories', 'users\UserCategoriesController@index')->name('categories');
+Route::get('/category/{id}/books', 'users\UserCategoriesController@books')->name('categorybooks');
 Route::get('/authors', 'users\UserAuthorsController@index')->name('authors');
 Route::get('/author/{id}/books', 'users\UserAuthorsController@books')->name('authorbooks');
+Route::get('/book/{id}', 'users\UserBookController@show')->name('book');
+Route::get('/book/download/{id}', 'users\UserBookController@download')->name('bookdownload');
 
 Route::group(['middleware' => 'preventBack'], function() {
 

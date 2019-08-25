@@ -14,7 +14,7 @@
         <form method="POST" action="{{action('AdminBooksController@update', $book->id)}}" class="col-lg-offset-4 col-sm-4" autocomplete="off" enctype="multipart/form-data">
 
 
-                <img class="col-sm-offset-2 user-img img-responsive img-thumbnail" src="/{{$book->photo ? $book->photo->file : 'images/book/unknown.png'}}" alt="Book photo">
+                <img class="col-sm-offset-2 user-img img-responsive img-thumbnail" src="{{$book->photo ? $book->photo->file : '/images/book/unknown.png'}}" alt="Book photo">
 
 
 

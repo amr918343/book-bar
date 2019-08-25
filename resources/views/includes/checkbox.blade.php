@@ -1,19 +1,35 @@
     <script>
         $(document).ready(function() {
             var allChecked = 1;
-            $('#option').click(function() {
+            $('#option').click(function () {
                 if (this.checked == 1) {
-                    $('.checkboxes').each(function() {
+                    $('.checkboxes').each(function () {
                         this.checked = true;
                     });
                 } else {
 
-                    $('.checkboxes').each(function() {
+                    $('.checkboxes').each(function () {
                         this.checked = false;
                     });
 
                 }
+
+                if ($(this).is(":checked")) {
+                    $("#submitBtn").removeAttr("disabled");
+                } else {
+                    $("#submitBtn").attr("disabled", "disabled");
+                }
             });
+            var CB = $(".checkboxes");
+
+            CB.click(function () {
+                if ($(this).is(":checked")) {
+                    $("#submitBtn").removeAttr("disabled");
+                } else {
+                    $("#submitBtn").attr("disabled", "disabled");
+                }
+            });
+
 
             // $('.checkboxes').click(function() {
             //

@@ -13,9 +13,9 @@
             @csrf
             {{method_field('DELETE')}}
             <select name="checkBoxArray" id="" class="form-control">
-                <option value="delete">Delete</option>
+                <option value="delete">Delete All Data in This Page</option>
             </select>
-            <input type="submit" class="btn btn-danger" value="Delete">
+            <input type="submit" id="submitBtn" class="btn btn-danger" value="Delete" disabled>
 
             <table class="table table-bordered table-hover text-center">
                     <thead>
@@ -46,7 +46,7 @@
                                     <td><p class="book-description">{{$book->description}}</p></td>
                                     <td>{{$book->author ? $book->author->name : 'No Author'}}</td>
                                     <td>{{$book->category ? $book->category->name : 'Not Categorized yet'}}</td>
-                                    <td><a href="books/{{$book->id}}"><img height="35px" width="50" src="/{{$book->photo ? $book->photo->file : 'images/book/unknown.png'}}" alt="{{$book->name}}"></a></td>
+                                    <td><a href="books/{{$book->id}}"><img height="35px" width="50" src="{{$book->photo ? $book->photo->file : 'images/book/unknown.png'}}" alt="{{$book->name}}"></a></td>
                                     <td>{{$book->created_at->diffForHumans()}}</td>
                                     <td>{{$book->updated_at->diffForHumans()}}</td>
                                     <td>

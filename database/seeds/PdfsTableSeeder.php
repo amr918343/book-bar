@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class BooksTableSeeder extends Seeder
+class PdfsTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,7 +12,5 @@ class BooksTableSeeder extends Seeder
     public function run()
     {
         //
-        DB::table('books')->truncate();
-        factory(\App\Models\book\Book::class, 25)->create();
     }
 }

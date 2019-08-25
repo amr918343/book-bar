@@ -43,7 +43,7 @@
                     <select name="checkBoxArray" id="" class="form-control">
                         <option value="delete">Delete</option>
                     </select>
-                    <input type="submit" class="btn btn-danger" value="Delete">
+                    <input type="submit" id="submitBtn" class="btn btn-danger" value="Delete" disabled>
                     <table class="table table-bordered table-hover">
                         <thead>
                         <tr>
@@ -67,16 +67,14 @@
                                     </td>
                                     <td>{{$category->id}}</td>
                                     <td>{{$category->name}}</td>
-                                    <td><p class="category-description">{{$category->description}}</p></td>
+                                    <td><p class="category-description" style="width: 190px">{{$category->description}}</p></td>
                                     <td>{{$category->created_at? $category->created_at->diffForHumans() : "Null"}}</td>
                                     <td>{{$category->created_at? $category->created_at->diffForHumans() : "Null"}}</td>
                                     <td>
 
                                         <a class="btn btn-sm btn-vk" href="categories/{{$category->id}}/edit"><i
                                                     class="fa fa-edit"></i></a>
-                                        <form method="POST"
-                                              action="{{action('AdminCategoriesController@destroy', $category->id)}}"
-                                              class="form_del">
+                                        <form method="POST" action="{{action('AdminCategoriesController@destroy', $category->id)}}" class="form_del">
                                             @csrf
                                             {{@method_field('DELETE')}}
                                             <button type="submit" class="btn btn-sm btn-pinterest btn-outline-danger"><i

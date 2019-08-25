@@ -8,5 +8,5 @@
 @stop
 
 @section('content')
-    <embed src="/pdf/{{$book->pdf->file}}" width="1100px" height="1000px" />
+    <embed src="/{{$book->pdf? $book->pdf->file: 'No Book Available Right Now'}}" width="1100px" height="1000px" />
 @stop

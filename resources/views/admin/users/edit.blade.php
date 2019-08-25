@@ -17,7 +17,7 @@
             @csrf
     @if($user->gender)
         @if($user->gender->gender == 'male')
-            <img class="col-sm-offset-2 user-img img-responsive img-circle img-thumbnail" src="/{{$user->photo ? $user->photo->file : 'images/users/user_male.gif'}}" alt="User photo">
+            <img class="col-sm-offset-2 user-img img-responsive img-circle img-thumbnail" src="{{$user->photo ? $user->photo->file : 'images/users/user_male.gif'}}" alt="User photo">
         @else
             <img class="col-sm-offset-2 user-img img-responsive img-circle img-thumbnail" src="/{{$user->photo ? $user->photo->file : 'images/users/user_female.png'}}" alt="User photo">
         @endif
